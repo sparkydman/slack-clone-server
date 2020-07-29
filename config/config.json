@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "chigo@213",
+    "database": "slack",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "chigo@213",
+    "database": "slack",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "chigo@213",
+    "database": "slack",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
