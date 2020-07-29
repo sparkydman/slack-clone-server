@@ -51,12 +51,15 @@ const resolvers = mergeResolvers(
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  context: ({ req }) => ({
-    models,
-    user: req.user.user,
-    SECRET,
-    SECRET2,
-  }),
+  context: ({ req }) => {
+    console.log("current user id: ", req.user.id);
+    return {
+      models,
+      user: req.user,
+      SECRET,
+      SECRET2,
+    };
+  },
 });
 server.applyMiddleware({ app });
 

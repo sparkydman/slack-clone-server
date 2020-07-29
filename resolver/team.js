@@ -9,7 +9,7 @@ export default {
           where: { owner: user.id },
           raw: true,
         });
-        // console.log(res);
+        console.log(res);
         return res;
       }
     ),
