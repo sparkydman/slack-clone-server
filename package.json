@@ -13,7 +13,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "eslint": "^7.4.0",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "dependencies": {
     "@graphql-tools/load-files": "^6.0.13",
